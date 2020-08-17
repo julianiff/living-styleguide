@@ -11,10 +11,9 @@
     "lerna": "^3.22.1",
     "microbundle": "^0.12.3"
   },
-  "dependencies": {
-    "card": "file:packages/card",
-    "title": "file:packages/components"
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
