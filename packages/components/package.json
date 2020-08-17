@@ -25,7 +25,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "dev": "microbundle watch --jsx React.createElement lib/*.js",
-    "prepublish": "microbundle --jsx React.createElement lib/*.js"
+    "prepublish": "microbundle build --jsx React.createElement lib/*.js"
   },
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
