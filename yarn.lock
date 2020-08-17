@@ -3972,9 +3972,6 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000989, caniuse-lite@^1.0.30001109, can
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001114.tgz#2e88119afb332ead5eaa330e332e951b1c4bfea9"
   integrity sha512-ml/zTsfNBM+T1+mjglWRPgVsu2L76GAaADKX5f4t0pbhttEp0WMawJsHDYlFkVZkoA+89uvBRrVrEE4oqenzXQ==
 
-"card@file:packages/card":
-  version "0.1.1"
-
 case-sensitive-paths-webpack-plugin@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.3.0.tgz#23ac613cc9a856e4f88ff8bb73bbb5e989825cf7"
@@ -11515,9 +11512,6 @@ tiny-glob@^0.2.6:
   dependencies:
     globalyzer "^0.1.0"
     globrex "^0.1.1"
-
-"title@file:packages/components":
-  version "0.1.0"
 
 tmp@^0.0.33:
   version "0.0.33"
