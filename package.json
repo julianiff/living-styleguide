@@ -19,6 +19,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest --verbose",
-    "publih": "lerna publish"
+    "publish": "lerna publish"
   }
 }
