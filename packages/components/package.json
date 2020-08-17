@@ -1,5 +1,5 @@
 {
-  "name": "title",
+  "name": "living-styleguide-title",
   "version": "0.1.7",
   "description": "React.js component Title",
   "keywords": [
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
   },
-  "gitHead": "f2c447d6675fab47d3665e941eb68b4282446c3a"
+  "gitHead": "85f889d2f590d91b94653e497ce1d84d4fb1070e"
 }
