@@ -18,6 +18,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "publih": "lerna publish"
   }
 }
