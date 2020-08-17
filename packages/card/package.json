@@ -1,5 +1,5 @@
 {
-  "name": "Card",
+  "name": "@living-styleguide/Card",
   "version": "0.1.5",
   "description": "React.js component Card",
   "keywords": [
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
   },
-  "gitHead": "77e8245bddc5880f9a755d16e8b7011df3497b87"
+  "gitHead": "c155f8b3ab128fe044134563058ee33def42e155"
 }
