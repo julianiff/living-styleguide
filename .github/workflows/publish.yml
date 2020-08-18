@@ -21,8 +21,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+
       - name: Checkout and pull branch
         run: git checkout "${GITHUB_REF:11}" && git pull
+
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
@@ -32,6 +34,6 @@ jobs:
         run: yarn
 
       - name: Publish package
-        run: yarn lerna publish --yes --registry https://registry.npmjs.org/:_authToken=${NPM_TOKEN}
+        run: yarn lerna publish --yes --conventional-commits --registry https://registry.npmjs.org/:_authToken=${NPM_TOKEN}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
