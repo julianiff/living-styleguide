@@ -21,7 +21,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-
+      - name: Checkout and pull branch
+        run: git checkout "${GITHUB_REF:11}" && git pull
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
