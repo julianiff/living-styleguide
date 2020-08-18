@@ -21,11 +21,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+     
       - name: Install npm dependencies
         run: yarn
+
+      - name: Authenticate with Registry
+        run: echo "registry=//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
       - name: Run Lerna Publish
         run: lerna publish
