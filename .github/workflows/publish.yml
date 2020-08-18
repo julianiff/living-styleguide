@@ -20,9 +20,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v1
+
+      - name: Configure CI Git User
+        run: |
+          git config --global user.name "${GH_USERNAME}"
+          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
+          git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/julianiff/living-styleguide
+        env:
+          GH_USERNAME: ${{ github.actor }}
 
       - name: Checkout and pull branch
         run: git checkout "${GITHUB_REF:11}" && git pull
