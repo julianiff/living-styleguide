@@ -24,12 +24,11 @@ jobs:
 
       - name: Configure CI Git User
         run: |
-          git config --global user.name ${USER_NAME}
-          git config --global user.email ${USER_EMAIL}
+          git config --global user.name "${GH_USERNAME}"
+          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
           git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/julianiff/living-styleguide
         env:
-          USER_NAME: ${{ secrets.USER_NAME }}
-          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+          GH_USERNAME: ${{ github.actor }}
 
       - name: Checkout and pull branch
         run: git checkout "${GITHUB_REF:11}" && git pull
