@@ -28,7 +28,6 @@ jobs:
           git config --global user.email $USER_EMAIL
           git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/julianiff/living-styleguide
         env:
-          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
           USER_NAME: ${{ secrets.USER_NAME }}
           USER_EMAIL: ${{ secrets.USER_EMAIL }}
 
