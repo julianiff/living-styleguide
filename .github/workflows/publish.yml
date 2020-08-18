@@ -22,6 +22,15 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
+      - name: Configure CI Git User
+        run: |
+          git config --global user.name ${USER_NAME}
+          git config --global user.email ${USER_EMAIL}
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+
       - name: Checkout and pull branch
         run: git checkout "${GITHUB_REF:11}" && git pull
 
