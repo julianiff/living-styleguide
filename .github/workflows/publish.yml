@@ -24,8 +24,8 @@ jobs:
 
       - name: Configure CI Git User
         run: |
-          git config --global user.name '${GH_USERNAME}'
-          git config --global user.email '${GH_USERNAME}@users.noreply.github.com'
+          git config --global user.name '$GH_USERNAME'
+          git config --global user.email '$GH_USERNAME@users.noreply.github.com'
           git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/julianiff/living-styleguide
           git config --list
         env:
@@ -43,6 +43,6 @@ jobs:
         run: yarn
 
       - name: Publish package
-        run: yarn run lerna publish --yes --conventional-commits --no-push --registry https://registry.npmjs.org/:_authToken=${NPM_TOKEN}
+        run: yarn run lerna publish --yes --conventional-commits --registry https://registry.npmjs.org/:_authToken=$NPM_TOKEN
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
