@@ -20,13 +20,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-
-      - name: Configure CI Git User
-        run: |
-          git remote set-url origin "https://$GITHUB_ACTOR:$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git"
-        env:
-          GH_USERNAME: ${{ github.actor }}
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Checkout and pull branch
         run: git checkout "${GITHUB_REF:11}" && git pull
