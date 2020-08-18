@@ -24,9 +24,7 @@ jobs:
 
       - name: Configure CI Git User
         run: |
-          git config --global user.name "${GH_USERNAME}"
-          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
-          git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/julianiff/living-styleguide
+          git remote set-url origin "https://$GITHUB_ACTOR:$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git"
         env:
           GH_USERNAME: ${{ github.actor }}
 
