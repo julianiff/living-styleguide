@@ -19,6 +19,6 @@
     "build-storybook": "build-storybook",
     "test": "jest --verbose",
     "publish": "lerna publish",
-    "deploy:ci": "lerna publish --yes --message 'chore: release new versions'",
+    "deploy:ci": "lerna publish --yes --message 'chore: release new versions'"
   }
 }
