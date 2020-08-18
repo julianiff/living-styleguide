@@ -27,6 +27,7 @@ jobs:
           git config --global user.name '${GH_USERNAME}'
           git config --global user.email '${GH_USERNAME}@users.noreply.github.com'
           git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/julianiff/living-styleguide
+          git config --list
         env:
           GH_USERNAME: ${{ github.actor }}
 
@@ -39,7 +40,7 @@ jobs:
           node-version: "12.x"
 
       - name: Install npm dependencies
-        run: yarn
+        run: npm install
 
       - name: Publish package
         run: npm run lerna publish --yes --conventional-commits --no-push --registry https://registry.npmjs.org/:_authToken=${NPM_TOKEN}
