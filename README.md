@@ -23,9 +23,13 @@ Link packages into root to have only one node_modules
 
 Create new Lerna managed component.
 
-### `lerna add <depdency>`
+### `lerna add <dependency>`
 
 Adds new depdency to all subsequent packages [lerna add](https://github.com/lerna/lerna/tree/master/commands/add)
+
+### `lerna add <dependency> --peer`
+
+Adds dependency as peer
 
 ### `lerna run dev`
 
