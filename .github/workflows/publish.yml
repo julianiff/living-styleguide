@@ -22,15 +22,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          fetch-depth: "0"
+        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+          registry-url: https://registry.npmjs.org/
 
       - name: Install npm dependencies
         run: yarn
+
+      - name: Login to Git
+        run: |
+        git config --global user.email 'julianiff'
+        git config --global user.name 'julianiff@users.noreply.github.com'
 
       - name: Publish package
         run: yarn run lerna publish --yes --conventional-commits --registry https://registry.npmjs.org/:_authToken=$NPM_TOKEN
