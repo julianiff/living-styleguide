@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/julianiff/living-styleguide/compare/v0.2.2...v0.2.3) (2020-08-19)
+
+
+### Bug Fixes
+
+* new build script for tsconfig ([4a703f3](https://github.com/julianiff/living-styleguide/commit/4a703f3792092d74e1bb1533c3e40155ef0d5c1e))
+
+
+
+
+
 ## [0.2.2](https://github.com/julianiff/living-styleguide/compare/v0.2.1...v0.2.2) (2020-08-19)
 
 
