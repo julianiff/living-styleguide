@@ -1,20 +1,16 @@
 {
-  "name": "living-styleguide-title",
-  "version": "0.1.11",
-  "description": "React.js component Title",
-  "keywords": [
-    "React.js",
-    "Title"
-  ],
+  "name": "ls-button",
+  "version": "0.1.12",
+  "description": "Button",
   "author": "julianiff <jule_iff@mac.com>",
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "source": "lib/index.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
-  "source": "lib/index.js",
   "files": [
     "lib"
   ],
@@ -24,10 +20,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "dev": "microbundle watch --jsx React.createElement lib/*.js"
+    "dev": "microbundle watch --tsx React.createElement lib/*.tsx"
   },
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
-  },
-  "gitHead": "5ecda689f6dfaf94fecde41a5b57950a73bd9fa8"
+  }
 }

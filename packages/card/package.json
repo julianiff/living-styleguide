@@ -1,5 +1,5 @@
 {
-  "name": "living-styleguide-card",
+  "name": "ls-card",
   "version": "0.1.12",
   "description": "React.js component Card",
   "keywords": [
@@ -14,7 +14,7 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "source": "lib/index.js",
+  "source": "lib/index.ts",
   "files": [
     "lib"
   ],
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "dev": "microbundle watch --jsx React.createElement lib/*.js"
+    "dev": "microbundle watch --tsx React.createElement lib/*.tsx"
   },
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"

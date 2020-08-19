@@ -1,11 +1,11 @@
-# `components`
+# `ls-button`
 
 > TODO: description
 
 ## Usage
 
 ```
-const components = require('components');
+const lsButton = require('ls-button');
 
 // TODO: DEMONSTRATE API
 ```

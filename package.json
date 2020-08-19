@@ -3,21 +3,25 @@
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.11.1",
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/react": "^5.3.19",
+    "@storybook/addon-actions": "^6.0.13",
+    "@storybook/addon-essentials": "^6.0.13",
+    "@storybook/addon-links": "^6.0.13",
+    "@storybook/react": "^6.0.13",
     "babel-loader": "^8.1.0",
     "lerna": "^3.22.1",
-    "microbundle": "^0.12.3"
+    "microbundle": "^0.12.3",
+    "react-is": "^16.13.1"
   },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
     "test": "jest --verbose",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "typescript": "^3.9.7"
   }
 }
