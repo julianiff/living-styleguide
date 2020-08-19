@@ -9,7 +9,7 @@
   "author": "julianiff <jule_iff@mac.com>",
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
   "license": "ISC",
-  "main": "dist/**",
+  "main": "dist/*.ts",
   "types": "dist/*.d.ts",
   "directories": {
     "lib": "lib",
