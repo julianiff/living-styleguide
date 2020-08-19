@@ -18,20 +18,26 @@ Run a local storybook with all the components and their stories.
 
 Create new Lerna managed component.
 
-### Commit messages to trigger npm PATCH, MINOR, MAJOR Release
+### Commit messages to trigger npm PATCH, MINOR, MAJOR release
+
+This project uses the angular release messages to trigger patch, minor, major of the npm package.
 
 [Angular Release Messages](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
 
+It follows the following logic
+
+```
 <type>(<scope>): <short summary>
-│ │ │
-│ │ └─⫸ Summary in present tense. Not capitalized. No period at the end.
-│ │
-│ └─⫸ Commit Scope: ls-card|ls-list|ls-XXXX
-│
-└─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|style|test
+  │       │            │
+  │       │            └─⫸ Summary in present tense. Not capitalized. No period at the end.
+  │       │
+  │       └─⫸ Commit Scope: ls-card|ls-list|ls-XXXX
+  │
+  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|style|test
+```
 
 ## Learn More
 
-[Lerna Concepts](https://github.com/lerna/lerna#concepts)
-[React.js](https://reactjs.org/)
-[Storybook](https://storybook.js.org/)
+- [Lerna Concepts](https://github.com/lerna/lerna#concepts)
+- [React.js](https://reactjs.org/)
+- [Storybook](https://storybook.js.org/)
