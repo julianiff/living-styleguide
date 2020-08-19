@@ -1,4 +1,5 @@
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+![Publish NPM](https://github.com/julianiff/living-styleguide/workflows/Publish%20NPM/badge.svg?branch=master)
 
 # Living Styleguide - Component Library in react
 
