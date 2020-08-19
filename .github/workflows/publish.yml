@@ -38,7 +38,14 @@ jobs:
           git config --global user.email 'julianiff'
           git config --global user.name 'julianiff@users.noreply.github.com'
 
+      - name: Configure NPM
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+          npm whoami
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Publish package
-        run: yarn run lerna publish --yes --conventional-commits --registry https://registry.npmjs.org/:_authToken=$NPM_TOKEN
+        run: yarn run lerna publish --yes --conventional-commits
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
