@@ -25,11 +25,11 @@ Create new Lerna managed component.
 
 ### `lerna add <dependency>`
 
-Adds new depdency to all subsequent packages [lerna add](https://github.com/lerna/lerna/tree/master/commands/add)
+Adds new depdency to all subsequent packages [lerna add](https://github.com/lerna/lerna/tree/master/commands/add) (For example styled-components needed to be installed as a dependency)
 
 ### `lerna add <dependency> --peer`
 
-Adds dependency as peer
+Adds dependencies as peerDependencies to all the packages.
 
 ### `lerna run dev`
 
