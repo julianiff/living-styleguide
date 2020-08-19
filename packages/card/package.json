@@ -9,15 +9,15 @@
   "author": "julianiff <jule_iff@mac.com>",
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
   "license": "ISC",
-  "main": "dist/*.ts",
-  "types": "dist/*.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/Card.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "source": "lib/index.ts",
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -31,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
   },
-  "gitHead": "5ecda689f6dfaf94fecde41a5b57950a73bd9fa8"
+  "gitHead": "a44941409647e84e5247bf97315a68e9add40760"
 }
