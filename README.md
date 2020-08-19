@@ -21,7 +21,7 @@ Create new Lerna managed component.
 
 ### Commit messages to trigger npm PATCH, MINOR, MAJOR release
 
-This project follows the [Angular Release Messages](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit). A short summary can be found here [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) with the most important types beeing:
+The CI jobs evaluate the commit messages, when merged on master. A short summary for conventional commits can be found on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) and on [Angular Release Messages](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit). The most important types are:
 
 - **fix**: patches a bug in your codebase (this correlates with PATCH in semantic versioning, x.x.1 -> x.x.2).
 - **feat**: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in semantic versioning x.1.x -> x.2.x).
@@ -31,8 +31,8 @@ An example commit message has the following logic:
 
 ```
 <type>(<optional scope>): <short summary>
-  │         │            │
-  │         │            └─⫸ Summary in present tense. Not capitalized. No period at the end.
+  │         │                   │
+  │         │                   └─⫸ Summary in present tense. Not capitalized. No period at the end.
   │         │
   │         └─⫸ Optional Commit Scope: ls-card|ls-list|ls-XXXX
   │
