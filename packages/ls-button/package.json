@@ -1,11 +1,11 @@
 {
   "name": "ls-button",
-  "version": "0.2.6",
+  "version": "0.2.4",
   "description": "Button",
   "author": "julianiff <jule_iff@mac.com>",
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
   "license": "ISC",
-  "main": "dist/*.ts",
+  "main": "dist/**",
   "source": "lib/index.ts",
   "types": "dist/*.d.ts",
   "directories": {
