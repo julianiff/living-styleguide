@@ -23,9 +23,9 @@ Create new Lerna managed component.
 
 This project follows the [Angular Release Messages](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit). A short summary can be found here [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) with the most important types beeing:
 
-- **fix**: patches a bug in your codebase (this correlates with PATCH in semantic versioning).
-- **feat**: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in semantic versioning).
-- **BREAKING CHANGE**: or appends a ! after the type/scope, introduces a breaking API change (correlating with MAJOR in semantic versioning). A BREAKING CHANGE can be part of commits of any type.
+- **fix**: patches a bug in your codebase (this correlates with PATCH in semantic versioning, x.x.1 -> x.x.2).
+- **feat**: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in semantic versioning x.1.x -> x.2.x).
+- **BREAKING CHANGE**: or appends a ! after the type/scope, introduces a breaking API change (correlating with MAJOR in semantic versioning 1.x.x -> 2.x.x). A BREAKING CHANGE can be part of commits of any type.
 
 An example commit message has the following logic:
 
