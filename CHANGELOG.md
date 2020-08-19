@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.11](https://github.com/julianiff/living-styleguide/compare/v0.2.10...v0.2.11) (2020-08-19)
+
+
+### Bug Fixes
+
+* add types for styled-components ([77eef39](https://github.com/julianiff/living-styleguide/commit/77eef39f0cc2748671859dd686bb76fff94d950d))
+
+
+
+
+
 ## [0.2.10](https://github.com/julianiff/living-styleguide/compare/v0.2.9...v0.2.10) (2020-08-19)
 
 
