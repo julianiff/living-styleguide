@@ -16,25 +16,22 @@ Run a local storybook with all the components and their stories.
 
 ### `lerna create <name>`
 
-Create new Lerna managed component. 
+Create new Lerna managed component.
 
 ### Commit messages to trigger npm PATCH, MINOR, MAJOR Release
 
-[Angular Release Messages](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit) 
+[Angular Release Messages](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
 
 <type>(<scope>): <short summary>
-  │       │             │
-  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
-  │       │
-  │       └─⫸ Commit Scope: 
-  │                          ls-card|ls-list|ls-XXXX
-  │
-  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|style|test
-
+│ │ │
+│ │ └─⫸ Summary in present tense. Not capitalized. No period at the end.
+│ │
+│ └─⫸ Commit Scope: ls-card|ls-list|ls-XXXX
+│
+└─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|style|test
 
 ## Learn More
 
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Lerna Concepts](https://github.com/lerna/lerna#concepts)
+[React.js](https://reactjs.org/)
+[Storybook](https://storybook.js.org/)
