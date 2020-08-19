@@ -26,7 +26,7 @@ export interface ButtonProps {
 }
 
 const BgColor = styled.button`
-  background-color: green;
+  background-color: yellow !important;
 `;
 /**
  * Primary UI component for user interaction
@@ -42,7 +42,7 @@ export const Button: React.FC<ButtonProps> = ({
     ? "storybook-button--primary"
     : "storybook-button--secondary";
   return (
-    <button
+    <BgColor
       type="button"
       className={["storybook-button", `storybook-button--${size}`, mode].join(
         " "
@@ -51,6 +51,6 @@ export const Button: React.FC<ButtonProps> = ({
       {...props}
     >
       {label}
-    </button>
+    </BgColor>
   );
 };
