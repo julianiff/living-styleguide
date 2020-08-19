@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.9](https://github.com/julianiff/living-styleguide/compare/v0.2.8...v0.2.9) (2020-08-19)
+
+
+### Bug Fixes
+
+* Changed package.json of subpackages ([823d036](https://github.com/julianiff/living-styleguide/commit/823d03667fd077577e5025a9cbf9dab297bc17e6))
+
+
+
+
+
 ## [0.2.7](https://github.com/julianiff/living-styleguide/compare/v0.2.6...v0.2.7) (2020-08-19)
 
 
