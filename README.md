@@ -15,9 +15,21 @@ Install all development dependencies.
 
 Run a local storybook with all the components and their stories.
 
+### `lerna link convert`
+
+Link packages into root to have only one node_modules
+
 ### `lerna create <name>`
 
 Create new Lerna managed component.
+
+### `lerna add <depdency>`
+
+Adds new depdency to all subsequent packages [lerna add](https://github.com/lerna/lerna/tree/master/commands/add)
+
+### `lerna run dev`
+
+Runs in all the packages the npm dev script.
 
 ## Conventional Commits, how to commit to trigger CI jobs
 

@@ -10,7 +10,8 @@
     "babel-loader": "^8.1.0",
     "lerna": "^3.22.1",
     "microbundle": "^0.12.3",
-    "react-is": "^16.13.1"
+    "react-is": "^16.13.1",
+    "typescript": "^3.9.7"
   },
   "workspaces": [
     "packages/*"
@@ -22,6 +23,8 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "typescript": "^3.9.7"
+    "ls-button": "file:packages/ls-button",
+    "ls-card": "file:packages/card",
+    "styled-components": "^5.1.1"
   }
 }
