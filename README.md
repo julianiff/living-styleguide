@@ -19,7 +19,7 @@ Run a local storybook with all the components and their stories.
 
 Create new Lerna managed component.
 
-### Commit messages to trigger npm PATCH, MINOR, MAJOR release
+## Conventional Commits, how to commit to trigger CI jobs
 
 The CI jobs evaluate the commit messages, when merged on master. A short summary for conventional commits can be found on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) and on [Angular Release Messages](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit). The most important types are:
 
