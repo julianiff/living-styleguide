@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/julianiff/living-styleguide/compare/v0.2.17...v0.3.0) (2020-08-21)
+
+
+### Features
+
+* **card:** add card interface to have storybook docs generated ([4cacbdb](https://github.com/julianiff/living-styleguide/commit/4cacbdb59c60cdc884aa87a9b81598b572af2c7f))
+
+
+
+
+
 ## [0.2.17](https://github.com/julianiff/living-styleguide/compare/v0.2.16...v0.2.17) (2020-08-19)
 
 **Note:** Version bump only for package ls-button
