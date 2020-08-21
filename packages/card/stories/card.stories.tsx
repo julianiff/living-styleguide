@@ -4,16 +4,19 @@ import { LSCard } from "../lib/Card";
 export default {
   title: "Card",
   component: LSCard,
+  argTypes: {
+    backgroundColor: { control: "color" },
+  },
 };
 
-export const Text = () => (
-  <LSCard onClick={console.log("clicked")}>Hello Button</LSCard>
-);
+const Template = (args: any) => <LSCard {...args} />;
 
-export const Emoji = () => (
-  <LSCard onClick={console.log("clicked")}>
-    <span role="img" aria-label="so cool">
-      component😀 😎 👍 💯
-    </span>
-  </LSCard>
-);
+export const HelloButton = Template.bind({});
+HelloButton.args = {
+  children: "Hello Button",
+};
+
+export const Emoji = Template.bind({});
+Emoji.args = {
+  children: "component😀 😎 👍 💯",
+};

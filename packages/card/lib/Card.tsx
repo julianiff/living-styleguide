@@ -1,12 +1,34 @@
 import React from "react";
 import styled from "styled-components";
 
-const BgColor = styled.button`
-  background-color: green;
+type BgProps = {
+  bg: string;
+};
+
+const BgColor = styled.button<BgProps>`
+  background-color: ${(props) => props.bg};
 `;
 
-export const LSCard = (props: { onClick: any; children: any }) => {
+export interface CardProps {
+  /**
+   * Optional click handler
+   */
+  onClick?: () => void;
+  /**
+   * Optional Background-color
+   */
+  backgroundColor?: string;
+}
+
+export const LSCard: React.FC<CardProps> = ({
+  onClick,
+  children,
+  backgroundColor,
+  ...props
+}) => {
   return (
-    <BgColor onClick={props.onClick}>new card with - {props.children}</BgColor>
+    <BgColor bg={backgroundColor} onClick={onClick}>
+      {children}
+    </BgColor>
   );
 };
