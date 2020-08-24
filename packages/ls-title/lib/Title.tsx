@@ -5,13 +5,13 @@ type sizeProps = {
   size: number;
 };
 
-const FontSize = styled.button<sizeProps>`
+const FontSize = styled.p<sizeProps>`
   font-size: ${(props) => props.size}rem;
 `;
 
 export interface TitleProps {
   /**
-   * Optional FontSize
+   * Label for the title
    */
   label: string;
   /**
