@@ -20,7 +20,7 @@ export interface CardProps {
   backgroundColor?: string;
 }
 
-export const LSCard: React.FC<CardProps> = ({
+export const Card: React.FC<CardProps> = ({
   onClick,
   children,
   backgroundColor,

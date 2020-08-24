@@ -1,15 +1,15 @@
 import React from "react";
-import { LSCard } from "../lib/Card";
+import { Card } from "../lib/Card";
 
 export default {
   title: "Card",
-  component: LSCard,
+  component: Card,
   argTypes: {
     backgroundColor: { control: "color" },
   },
 };
 
-const Template = (args: any) => <LSCard {...args} />;
+const Template = (args: any) => <Card {...args} />;
 
 export const HelloButton = Template.bind({});
 HelloButton.args = {

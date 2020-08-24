@@ -10,12 +10,12 @@
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "source": "lib/index.ts",
   "types": "dist/Title.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
-  "source": "lib/index.ts",
   "files": [
     "dist"
   ],
