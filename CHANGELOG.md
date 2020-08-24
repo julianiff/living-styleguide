@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.2](https://github.com/julianiff/living-styleguide/compare/v0.5.1...v0.5.2) (2020-08-24)
+
+
+### Bug Fixes
+
+* **ls-title:** change from label to children ([feea4d9](https://github.com/julianiff/living-styleguide/commit/feea4d9fd2eb38fa03742ac833b491a2fd22662a))
+
+
+
+
+
 ## [0.5.1](https://github.com/julianiff/living-styleguide/compare/v0.5.0...v0.5.1) (2020-08-24)
 
 **Note:** Version bump only for package root
