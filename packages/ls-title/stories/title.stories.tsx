@@ -5,7 +5,7 @@ export default {
   title: "Title",
   component: Title,
   argTypes: {
-    backgroundColor: { control: "color" },
+    fontSize: Number,
   },
 };
 
@@ -13,11 +13,11 @@ const Template = (args: any) => <Title {...args} />;
 
 export const TitleDefault = Template.bind({});
 TitleDefault.args = {
-  label: "Title",
+  children: "Title",
 };
 
 export const TitleBig = Template.bind({});
 TitleBig.args = {
-  label: "Title Big",
+  children: "Title Big",
   fontSize: 5,
 };
