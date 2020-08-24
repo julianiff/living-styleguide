@@ -55,6 +55,13 @@ An example commit message has the following logic:
   └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|style|test
 ```
 
+## Adding a new Component
+
+- Copy existing component.
+- Adjust package.json of new component and add correct type file (name of the <component>.d.js).
+- Run `lerna link convert` in root
+- run `yarn`to generate new yarn.lock
+
 ## Learn More
 
 - [Lerna Concepts](https://github.com/lerna/lerna#concepts)
