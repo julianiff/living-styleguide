@@ -8692,10 +8692,22 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 "ls-button@file:packages/ls-button":
-  version "0.2.13"
+  version "0.4.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
 
-"ls-card@file:packages/card":
-  version "0.2.13"
+"ls-card@file:packages/ls-card":
+  version "0.4.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
+
+"ls-title@file:packages/ls-title":
+  version "0.4.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
 
 macos-release@^2.2.0:
   version "2.4.1"
