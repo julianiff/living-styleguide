@@ -8692,19 +8692,25 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 "ls-button@file:packages/ls-button":
-  version "0.4.0"
+  version "0.5.2"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
 
 "ls-card@file:packages/ls-card":
-  version "0.4.0"
+  version "0.5.2"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
+
+"ls-curved-bg@file:packages/ls-curved-bg":
+  version "0.5.1"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
 
 "ls-title@file:packages/ls-title":
-  version "0.4.0"
+  version "0.5.2"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
