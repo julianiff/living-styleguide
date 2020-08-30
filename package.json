@@ -23,6 +23,10 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "ls-button": "file:packages/ls-button",
+    "ls-card": "file:packages/ls-card",
+    "ls-title": "file:packages/ls-title",
+    "ls-curved-bg": "file:packages/ls-curved-bg",
     "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
   }
