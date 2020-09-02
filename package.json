@@ -27,6 +27,7 @@
     "ls-card": "file:packages/ls-card",
     "ls-title": "file:packages/ls-title",
     "ls-curved-bg": "file:packages/ls-curved-bg",
+    "ls-header": "file:packages/ls-header",
     "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
   }
