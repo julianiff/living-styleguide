@@ -82,6 +82,7 @@ export const CurvedBg: React.FC<CurvedBgProps> = ({
 }) => {
   return (
     <div style={{ overflow: "hidden" }}>
+      {children}
       {bgCurved[variation](bgColor, height)}
     </div>
   );
