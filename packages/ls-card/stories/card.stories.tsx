@@ -13,7 +13,8 @@ const Template = (args: any) => <Card {...args} />;
 
 export const HelloButton = Template.bind({});
 HelloButton.args = {
-  children: "Hello Button",
+  children:
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua",
 };
 
 export const Emoji = Template.bind({});
