@@ -6,14 +6,15 @@ export default {
   component: Header,
   argTypes: {
     backgroundColor: { control: "color" },
+    listItemColor: { control: "color" },
+    listItemHoverColor: { control: "color" },
   },
 };
 
 const Template = (args: any) => <Header {...args} />;
 
-export const HeaderDefault = Template.bind({});
-
 export const HeaderBlack = Template.bind({});
 HeaderBlack.args = {
-  backgroundColor: "black",
+  backgroundColor: "green",
+  navigationItems: ["eins", "zwei", "drei"],
 };
