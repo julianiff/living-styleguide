@@ -2,34 +2,40 @@ import React from "react";
 import styled from "styled-components";
 import {Grid, GridList, GridListTile, GridListTileBar, IconButton} from "@material-ui/core";
 import InfoIcon from '@material-ui/icons/Info';
+import {H2} from "../../ls-styles/LsStyles";
 
-const dogData = [
+const teamData = [
     {
-        img: {src: '../../assets/Chadieja.jpg'},
+        key: 1,
+        img: {src: 'https://vet-enge.julianiff.ch/assets/Chadieja.jpg'},
         title: 'Chadieja Benredjem',
         author: 'TPA',
         cols: 2
     },
     {
-        img: {src: '../../assets/Ueli.jpg'},
+        key: 2,
+        img: {src: 'https://vet-enge.julianiff.ch/assets/Ueli.jpg'},
         title: 'Dr. med. vet. Ulrich Coradi',
         author: 'Arzt',
         cols: 2
     },
     {
-        img: {src: '../../assets/portraitcscv.jpg'},
+        key: 3,
+        img: {src: 'https://vet-enge.julianiff.ch/assets/portraitcscv.jpg'},
         title: 'Dr. med. vet. Corinne Schroeter',
         author: 'Praxisinhaberin',
         cols: 2
     },
     {
-        img: {src: '../../assets/Rosy.jpg'},
+        key: 4,
+        img: {src: 'https://vet-enge.julianiff.ch/assets/Rosy.jpg'},
         title: 'Rosy',
         author: 'Praxishund',
         cols: 3
     },
     {
-        img: {src: '../../assets/Sam.jpg'},
+        key: 5,
+        img: {src: 'https://vet-enge.julianiff.ch/assets/Sam.jpg'},
         title: 'Sam',
         author: 'Praxishund',
         cols: 3
@@ -57,16 +63,19 @@ export interface ListImageProps {
 export const ListImage: React.FC<ListImageProps> = ({
                                                         backgroundColor,
                                                         classes = {gridList: "background-color: green;"},
-                                                        tileData = dogData,
+                                                        tileData = teamData,
                                                         ...props
                                                     }) => {
     return (
         <Grid container>
             <Grid item xs={12}>
+                <H2>Das Team</H2>
+            </Grid>
+            <Grid item xs={12}>
                 <GridList cellHeight={500} className={classes.gridList} cols={6}>
                     {tileData.map((tile: any) => (
-                        <GridListTile key={tile.img} cols={tile.cols || 1}>
-                            <img src={tile.img} alt={tile.title} style={{objectFit: "cover"}}/>
+                        <GridListTile key={tile.key} cols={tile.cols || 1}>
+                            <img src={tile.img.src} alt={tile.title} style={{objectFit: "cover"}}/>
                             <GridListTileBar
                                 title={tile.title}
                                 subtitle={tile.author}
