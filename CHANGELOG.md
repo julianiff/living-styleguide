@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.1](https://github.com/julianiff/living-styleguide/compare/v0.10.0...v0.10.1) (2020-09-12)
+
+
+### Bug Fixes
+
+* asset error removed ([c52a87b](https://github.com/julianiff/living-styleguide/commit/c52a87b73bfad67f9ff2226396494de2905b6844))
+
+
+
+
+
 # [0.10.0](https://github.com/julianiff/living-styleguide/compare/v0.9.1...v0.10.0) (2020-09-12)
 
 
