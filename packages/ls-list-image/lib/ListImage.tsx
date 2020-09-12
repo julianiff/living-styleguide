@@ -2,39 +2,34 @@ import React from "react";
 import styled from "styled-components";
 import {Grid, GridList, GridListTile, GridListTileBar, IconButton} from "@material-ui/core";
 import InfoIcon from '@material-ui/icons/Info';
-import image1 from '../../assets/Chadieja.jpg';
-import image2 from '../../assets/Ueli.jpg';
-import image3 from '../../assets/portraitcscv.jpg';
-import image4 from '../../assets/Rosy.jpg';
-import image5 from '../../assets/Sam.jpg';
 
 const dogData = [
     {
-        img: image1,
+        img: {src: '../../assets/Chadieja.jpg'},
         title: 'Chadieja Benredjem',
         author: 'TPA',
         cols: 2
     },
     {
-        img: image2,
+        img: {src: '../../assets/Ueli.jpg'},
         title: 'Dr. med. vet. Ulrich Coradi',
         author: 'Arzt',
         cols: 2
     },
     {
-        img: image3,
+        img: {src: '../../assets/portraitcscv.jpg'},
         title: 'Dr. med. vet. Corinne Schroeter',
         author: 'Praxisinhaberin',
         cols: 2
     },
     {
-        img: image4,
+        img: {src: '../../assets/Rosy.jpg'},
         title: 'Rosy',
         author: 'Praxishund',
         cols: 3
     },
     {
-        img: image5,
+        img: {src: '../../assets/Sam.jpg'},
         title: 'Sam',
         author: 'Praxishund',
         cols: 3
@@ -67,7 +62,7 @@ export const ListImage: React.FC<ListImageProps> = ({
                                                     }) => {
     return (
         <Grid container>
-            <Grid item>
+            <Grid item xs={12}>
                 <GridList cellHeight={500} className={classes.gridList} cols={6}>
                     {tileData.map((tile: any) => (
                         <GridListTile key={tile.img} cols={tile.cols || 1}>
