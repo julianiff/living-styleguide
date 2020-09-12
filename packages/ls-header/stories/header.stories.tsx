@@ -13,8 +13,8 @@ export default {
 
 const Template = (args: any) => <Header {...args} />;
 
-export const HeaderBlack = Template.bind({});
-HeaderBlack.args = {
-  backgroundColor: "green",
+export const HeaderDefault = Template.bind({});
+HeaderDefault.args = {
+  backgroundColor: "black",
   navigationItems: ["eins", "zwei", "drei"],
 };
