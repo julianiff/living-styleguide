@@ -25,10 +25,13 @@
   "dependencies": {
     "ls-button": "file:packages/ls-button",
     "ls-card": "file:packages/ls-card",
-    "ls-title": "file:packages/ls-title",
+    "ls-contact": "file:packages/ls-contact",
     "ls-curved-bg": "file:packages/ls-curved-bg",
+    "ls-footer": "file:packages/ls-footer",
     "ls-header": "file:packages/ls-header",
-    "@types/styled-components": "^5.1.2",
-    "styled-components": "^5.1.1"
+    "ls-hero": "file:packages/ls-hero",
+    "ls-list": "file:packages/ls-list",
+    "ls-list-image": "file:packages/ls-list-image",
+    "ls-title": "file:packages/ls-title"
   }
 }

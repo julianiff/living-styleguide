@@ -8692,31 +8692,61 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 "ls-button@file:packages/ls-button":
-  version "0.6.0"
+  version "0.9.0"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
 
 "ls-card@file:packages/ls-card":
-  version "0.6.0"
+  version "0.9.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
+
+"ls-contact@file:packages/ls-contact":
+  version "0.9.0"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
 
 "ls-curved-bg@file:packages/ls-curved-bg":
-  version "0.6.0"
+  version "0.9.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
+
+"ls-footer@file:packages/ls-footer":
+  version "0.9.0"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
 
 "ls-header@file:packages/ls-header":
-  version "0.5.2"
+  version "0.9.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
+
+"ls-hero@file:packages/ls-hero":
+  version "0.9.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
+
+"ls-list-image@file:packages/ls-list-image":
+  version "0.9.0"
+  dependencies:
+    "@types/styled-components" "^5.1.2"
+    styled-components "^5.1.1"
+
+"ls-list@file:packages/ls-list":
+  version "0.9.0"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
 
 "ls-title@file:packages/ls-title":
-  version "0.6.0"
+  version "0.9.0"
   dependencies:
     "@types/styled-components" "^5.1.2"
     styled-components "^5.1.1"
