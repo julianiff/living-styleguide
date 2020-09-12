@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/julianiff/living-styleguide/compare/v0.10.3...v0.11.0) (2020-09-12)
+
+
+### Features
+
+* **ls-header:** add navigationItems, listItemColor, backgroundColor as props ([1b22058](https://github.com/julianiff/living-styleguide/commit/1b22058dd9f7173807291b8eb5e959958ffdb7e5))
+
+
+
+
+
 ## [0.10.1](https://github.com/julianiff/living-styleguide/compare/v0.10.0...v0.10.1) (2020-09-12)
 
 **Note:** Version bump only for package ls-header
