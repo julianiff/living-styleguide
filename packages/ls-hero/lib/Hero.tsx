@@ -16,7 +16,7 @@ export interface HeroProps {
  */
 export const Hero: React.FC<HeroProps> = ({
   backgroundColor,
-    herosrc = "https://material-ui.com/components/app-bar/Rosy.jpg",
+    herosrc = "https://vet-enge.julianiff.ch/assets/Rosy.jpg",
   ...props
 }) => {
   return (
