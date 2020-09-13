@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.2](https://github.com/julianiff/living-styleguide/compare/v0.11.1...v0.11.2) (2020-09-13)
+
+
+### Bug Fixes
+
+* added new font and images to storybook ([566537b](https://github.com/julianiff/living-styleguide/commit/566537b75f68c42d80f01724e30f226e9ab16ca4))
+* introducing theme knobs ([4fedf0f](https://github.com/julianiff/living-styleguide/commit/4fedf0febd51e5d30a64ab76df80f3f8ebee2fdd))
+
+
+
+
+
 ## [0.11.1](https://github.com/julianiff/living-styleguide/compare/v0.11.0...v0.11.1) (2020-09-12)
 
 **Note:** Version bump only for package root
