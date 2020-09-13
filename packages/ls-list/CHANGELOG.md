@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/julianiff/living-styleguide/compare/v0.11.3...v0.12.0) (2020-09-13)
+
+**Note:** Version bump only for package ls-list
+
+
+
+
+
 ## [0.11.2](https://github.com/julianiff/living-styleguide/compare/v0.11.1...v0.11.2) (2020-09-13)
 
 

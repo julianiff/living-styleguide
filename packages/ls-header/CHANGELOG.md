@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/julianiff/living-styleguide/compare/v0.11.3...v0.12.0) (2020-09-13)
+
+
+### Features
+
+* style listitems hover state ([7016e55](https://github.com/julianiff/living-styleguide/commit/7016e55cea027e10373b3202e6c6402a756274df))
+
+
+
+
+
 ## [0.11.1](https://github.com/julianiff/living-styleguide/compare/v0.11.0...v0.11.1) (2020-09-12)
 
 **Note:** Version bump only for package ls-header
