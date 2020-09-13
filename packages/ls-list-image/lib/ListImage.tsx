@@ -1,8 +1,26 @@
 import React from "react";
 import styled from "styled-components";
-import {Grid, GridList, GridListTile, GridListTileBar, IconButton} from "@material-ui/core";
+import {Grid, GridList, GridListTile, GridListTileBar, IconButton, Theme} from "@material-ui/core";
 import InfoIcon from '@material-ui/icons/Info';
 import {H2} from "../../ls-styles/LsStyles";
+import {makeStyles} from "@material-ui/core/styles";
+import {createMuiTheme} from '@material-ui/core/styles';
+import ThemeKnob from "../../../src/themes/ThemeKnob";
+
+const theme = createMuiTheme({
+    typography: {
+        fontFamily: [
+            '"Raleway"',
+            'Roboto',
+            '"Helvetica Neue"',
+            'Arial',
+            'sans-serif',
+            '"Apple Color Emoji"',
+            '"Segoe UI Emoji"',
+            '"Segoe UI Symbol"',
+        ].join(','),
+    }
+});
 
 const teamData = [
     {
@@ -62,17 +80,19 @@ export interface ListImageProps {
  */
 export const ListImage: React.FC<ListImageProps> = ({
                                                         backgroundColor,
-                                                        classes = {gridList: "background-color: green;"},
                                                         tileData = teamData,
                                                         ...props
                                                     }) => {
+
     return (
+        <ThemeKnob>
+
         <Grid container>
             <Grid item xs={12}>
                 <H2>Das Team</H2>
             </Grid>
             <Grid item xs={12}>
-                <GridList cellHeight={500} className={classes.gridList} cols={6}>
+                <GridList cellHeight={500} cols={6}>
                     {tileData.map((tile: any) => (
                         <GridListTile key={tile.key} cols={tile.cols || 1}>
                             <img src={tile.img.src} alt={tile.title} style={{objectFit: "cover"}}/>
@@ -80,8 +100,8 @@ export const ListImage: React.FC<ListImageProps> = ({
                                 title={tile.title}
                                 subtitle={tile.author}
                                 actionIcon={
-                                    <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                                        <InfoIcon />
+                                    <IconButton aria-label={`info about ${tile.title}`}>
+                                        <InfoIcon/>
                                     </IconButton>
                                 }
                             />
@@ -90,5 +110,6 @@ export const ListImage: React.FC<ListImageProps> = ({
                 </GridList>
             </Grid>
         </Grid>
+        </ThemeKnob>
     );
 };

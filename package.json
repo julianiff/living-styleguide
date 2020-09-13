@@ -6,6 +6,7 @@
     "@storybook/addon-actions": "^6.0.13",
     "@storybook/addon-essentials": "^6.0.13",
     "@storybook/addon-links": "^6.0.13",
+    "@storybook/addon-knobs": "^6.0.21",
     "@storybook/react": "^6.0.13",
     "babel-loader": "^8.1.0",
     "lerna": "^3.22.1",
@@ -32,6 +33,7 @@
     "ls-hero": "file:packages/ls-hero",
     "ls-list": "file:packages/ls-list",
     "ls-list-image": "file:packages/ls-list-image",
-    "ls-title": "file:packages/ls-title"
+    "ls-title": "file:packages/ls-title",
+    "@material-ui/core": "^4.11.0"
   }
 }
