@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import {Grid} from "@material-ui/core";
 import {H2} from "../../ls-styles/LsStyles";
+import hero from "../../assets/FI7A3331.jpg";
 
 export interface HeroProps {
   /**
@@ -16,7 +17,7 @@ export interface HeroProps {
  */
 export const Hero: React.FC<HeroProps> = ({
   backgroundColor,
-    herosrc = "https://vet-enge.julianiff.ch/assets/Rosy.jpg",
+    herosrc = hero,
   ...props
 }) => {
   return (
