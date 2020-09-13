@@ -15,6 +15,6 @@ const Template = (args: any) => <Header {...args} />;
 
 export const HeaderDefault = Template.bind({});
 HeaderDefault.args = {
-  backgroundColor: "black",
+  backgroundColor: "white",
   navigationItems: ["eins", "zwei", "drei"],
 };

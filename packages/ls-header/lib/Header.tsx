@@ -6,7 +6,19 @@ type headerTypes = {
 };
 
 const BackgroundColor = styled.div<headerTypes>`
+  position: relative;
   background-color: ${(props) => props.backgroundColor};
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(242, 242, 242);
+  }
 `;
 
 type listVerticalProps = {
@@ -28,14 +40,19 @@ type listItemProps = {
 const ListItem = styled.li<listItemProps>`
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 16px;
+  padding: 2.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   text-decoration: none;
+  transition: all 250ms ease-in;
 
   &:hover {
-    background-color: ${(props) => props.listItemHoverColor};
     cursor: pointer;
+    color: green;
+    transform: scale(1.2);
+    color: ${(props) => props.listItemHoverColor};
   }
 `;
 
@@ -60,6 +77,10 @@ const NavigationContainer = styled.div`
 const UnstyledLink = styled.a`
   color: inherit;
   text-decoration: inherit;
+  transform: scale(1);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
 `;
 
 export interface HeaderProps {
@@ -87,10 +108,10 @@ export interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({
   children,
-  backgroundColor = "green",
+  backgroundColor = "white",
   navigationItems = [],
-  listItemColor = "black",
-  listItemHoverColor = "grey",
+  listItemColor = "white",
+  listItemHoverColor = "#39C7CE",
   ...props
 }) => {
   return (
@@ -99,7 +120,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div>Icon</div>
         <ListVertical listItemColor={listItemColor}>
           {navigationItems.map((item: string) => (
-            <ListItem key={item} listItemHoverColor={listItemHoverColor}>
+            <ListItem listItemHoverColor={listItemHoverColor} key={item}>
               <UnstyledLink href={"#" + item}>{item}</UnstyledLink>
             </ListItem>
           ))}
