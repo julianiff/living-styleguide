@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.3](https://github.com/julianiff/living-styleguide/compare/v0.11.2...v0.11.3) (2020-09-13)
+
+
+### Bug Fixes
+
+* new hero-image arrangement ([be80aec](https://github.com/julianiff/living-styleguide/commit/be80aecaee9e6f2ff612a477c4caacf3c47d7ce2))
+
+
+
+
+
 ## [0.11.2](https://github.com/julianiff/living-styleguide/compare/v0.11.1...v0.11.2) (2020-09-13)
 
 
