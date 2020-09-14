@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.2](https://github.com/julianiff/living-styleguide/compare/v0.12.1...v0.12.2) (2020-09-14)
+
+
+### Bug Fixes
+
+* **ls-list-image:** remove theme knob dependency ([6ab8533](https://github.com/julianiff/living-styleguide/commit/6ab85338a1cca69a64d487493e316de4ed776e18))
+
+
+
+
+
 ## [0.12.1](https://github.com/julianiff/living-styleguide/compare/v0.12.0...v0.12.1) (2020-09-14)
 
 
