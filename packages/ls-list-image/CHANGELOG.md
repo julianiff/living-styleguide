@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.1](https://github.com/julianiff/living-styleguide/compare/v0.13.0...v0.13.1) (2020-09-14)
+
+
+### Bug Fixes
+
+* **ls-image-list:** change microbundle to index.tsx ([8ce2350](https://github.com/julianiff/living-styleguide/commit/8ce23502b85c19511f50284970e0dc05b4a64500))
+
+
+
+
+
 # [0.13.0](https://github.com/julianiff/living-styleguide/compare/v0.12.6...v0.13.0) (2020-09-14)
 
 
