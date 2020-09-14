@@ -97,7 +97,7 @@ export const ListImage: React.FC<ListImageProps> = ({
             />
             <ImageDescription>
               <H2>
-                {tile.title}: {tile.description}
+                {tile.title}:{tile.description}
               </H2>
             </ImageDescription>
           </ImageAndOverlay>
