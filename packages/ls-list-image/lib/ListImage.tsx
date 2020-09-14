@@ -14,7 +14,7 @@ import {
   ImageDescription,
   ImageOverlay,
   ImageOverlayContainer,
-} from "../../ls-styles/LsStyles";
+} from "./LsStyles";
 import { makeStyles } from "@material-ui/core/styles";
 
 const teamData = [
