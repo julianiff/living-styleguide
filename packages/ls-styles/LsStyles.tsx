@@ -24,6 +24,10 @@ export const UL = styled.ul`
 export const LI = styled.li`
     margin: 10px;
     `
+export const SectionTitle = styled.div`
+    display: flex;
+    justify-content: center;
+    `
 
 export const HeroOverlay = styled.div`
     position: relative;
@@ -31,6 +35,7 @@ export const HeroOverlay = styled.div`
     width: 100%;
     `
 export const ImageDescription = styled.div`
+    margin: 10px 10px 30px 10px;
     `
 export const ImageAndOverlay = styled.div`
     position: relative;

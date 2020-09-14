@@ -25,6 +25,8 @@ export const LI = styled.li`
     margin: 10px;
     `
 
+export const Container = styled.div`
+`
 export const HeroOverlay = styled.div`
     position: relative;
     height: 100vh;

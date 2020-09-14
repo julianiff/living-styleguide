@@ -29,8 +29,6 @@
   },
   "gitHead": "a44941409647e84e5247bf97315a68e9add40760",
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
     "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
   }

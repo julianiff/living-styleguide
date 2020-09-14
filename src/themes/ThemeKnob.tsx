@@ -1,5 +1,4 @@
 import React from "react";
-import { ThemeProvider } from "@material-ui/core/styles";
 import { select } from "@storybook/addon-knobs";
 
 import DefaultTheme from "./theme";
