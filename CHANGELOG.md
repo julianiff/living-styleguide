@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.5](https://github.com/julianiff/living-styleguide/compare/v0.12.4...v0.12.5) (2020-09-14)
+
+
+### Bug Fixes
+
+* **ls-title:** change children to title as prop ([fbd1f5d](https://github.com/julianiff/living-styleguide/commit/fbd1f5d759e30674e3780c1b215b2d38823ebde3))
+
+
+
+
+
 ## [0.12.4](https://github.com/julianiff/living-styleguide/compare/v0.12.3...v0.12.4) (2020-09-14)
 
 
