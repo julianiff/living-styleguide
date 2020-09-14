@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.5](https://github.com/julianiff/living-styleguide/compare/v0.13.4...v0.13.5) (2020-09-14)
+
+
+### Bug Fixes
+
+* removed all knob dependencies ([2c68ce2](https://github.com/julianiff/living-styleguide/commit/2c68ce2f608cbb47ef32696e4999ef3daed5d8f5))
+* yarn.lock update ([4f221fe](https://github.com/julianiff/living-styleguide/commit/4f221fe999fc033bdcf55c8684530c4ee9fa5b86))
+
+
+
+
+
 ## [0.13.4](https://github.com/julianiff/living-styleguide/compare/v0.13.3...v0.13.4) (2020-09-14)
 
 
