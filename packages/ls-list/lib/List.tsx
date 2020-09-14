@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {H2, LI, UL} from "../../ls-styles/LsStyles";
+import {H2, LI, UL} from "./LsStyles";
 import {Container} from "./LsStyles";
 
 export interface ListProps {

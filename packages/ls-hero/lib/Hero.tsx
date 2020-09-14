@@ -1,5 +1,5 @@
 import React from "react";
-import {H2, HeroOverlay, ImageOverlay, ImageOverlayContainer} from "../../ls-styles/LsStyles";
+import {H2, HeroOverlay, ImageOverlay, ImageOverlayContainer} from "./LsStyles";
 
 //import hero from "../../assets/FI7A3331.jpg";
 

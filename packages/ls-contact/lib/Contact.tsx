@@ -1,5 +1,5 @@
 import React from "react";
-import {H2, H3, P} from "../../ls-styles/LsStyles"
+import {H2, H3, P} from "./LsStyles"
 import {Container} from "./LsStyles";
 
 export interface ContactProps {
