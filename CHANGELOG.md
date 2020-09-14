@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.3](https://github.com/julianiff/living-styleguide/compare/v0.13.2...v0.13.3) (2020-09-14)
+
+
+### Bug Fixes
+
+* fixinng ([fbfbd19](https://github.com/julianiff/living-styleguide/commit/fbfbd19a8355ce0e1c97cbf2e4ae28f801adeb2e))
+
+
+
+
+
 ## [0.13.2](https://github.com/julianiff/living-styleguide/compare/v0.13.1...v0.13.2) (2020-09-14)
 
 
