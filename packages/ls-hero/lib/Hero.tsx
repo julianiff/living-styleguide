@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import {Grid, Theme} from "@material-ui/core";
-import {H2} from "../../ls-styles/LsStyles";
+import {H2, HeroOverlay, ImageAndOverlay, ImageOverlay, ImageOverlayContainer} from "../../ls-styles/LsStyles";
 import {makeStyles} from "@material-ui/core/styles";
 //import hero from "../../assets/FI7A3331.jpg";
 
@@ -49,15 +49,14 @@ export const Hero: React.FC<HeroProps> = ({
     return (
         <Grid container>
             <Grid item xs={12}>
-                <div className={classes.container}>
+                <HeroOverlay>
                     <img src={herosrc} className={classes.image}/>
-
-                    <div className={classes.overlayContainer}>
-                        <div className={classes.overlayContent}>
+                    <ImageOverlayContainer>
+                        <ImageOverlay>
                             <H2>Unsere Super Praxis</H2>
-                        </div>
-                    </div>
-                </div>
+                        </ImageOverlay>
+                    </ImageOverlayContainer>
+                </HeroOverlay>
             </Grid>
         </Grid>
     );

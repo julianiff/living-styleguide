@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {H2, UL} from "../../ls-styles/LsStyles";
+import {H2, LI, UL} from "../../ls-styles/LsStyles";
 import {Grid} from "@material-ui/core";
 
 export interface ListProps {
@@ -28,18 +28,18 @@ export const List: React.FC<ListProps> = ({
             </Grid>
             <Grid item xs={12} md={6}>
                 <UL>
-                    <li>Link1</li>
-                    <li>Link2</li>
-                    <li>Link3</li>
-                    <li>Link4</li>
+                    <LI>Link1</LI>
+                    <LI>Link2</LI>
+                    <LI>Link3</LI>
+                    <LI>Link4</LI>
                 </UL>
             </Grid>
             <Grid item xs={12} md={6}>
                 <UL>
-                    <li>Link5</li>
-                    <li>Link6</li>
-                    <li>Link7</li>
-                    <li>Link8</li>
+                    <LI>Link5</LI>
+                    <LI>Link6</LI>
+                    <LI>Link7</LI>
+                    <LI>Link8</LI>
                 </UL>
             </Grid>
         </Grid>

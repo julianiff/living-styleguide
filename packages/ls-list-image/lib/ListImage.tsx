@@ -1,46 +1,52 @@
 import React from "react";
 import {Grid, GridList, GridListTile, GridListTileBar, IconButton, Theme} from "@material-ui/core";
 import InfoIcon from '@material-ui/icons/Info';
-import {H2} from "../../ls-styles/LsStyles";
+import {H2, ImageAndOverlay, ImageDescription, ImageOverlay, ImageOverlayContainer} from "../../ls-styles/LsStyles";
 import ThemeKnob from "../../../src/themes/ThemeKnob";
+import {makeStyles} from "@material-ui/core/styles";
 
 const teamData = [
     {
         key: 1,
         img: {src: 'https://vet-enge.julianiff.ch/assets/Chadieja.jpg'},
         title: 'Chadieja Benredjem',
-        author: 'TPA',
-        cols: 2
+        description: 'TPA',
     },
     {
         key: 2,
         img: {src: 'https://vet-enge.julianiff.ch/assets/Ueli.jpg'},
         title: 'Dr. med. vet. Ulrich Coradi',
-        author: 'Arzt',
-        cols: 2
+        description: 'Arzt',
     },
     {
         key: 3,
         img: {src: 'https://vet-enge.julianiff.ch/assets/portraitcscv.jpg'},
         title: 'Dr. med. vet. Corinne Schroeter',
-        author: 'Praxisinhaberin',
-        cols: 2
+        description: 'Praxisinhaberin',
     },
     {
         key: 4,
         img: {src: 'https://vet-enge.julianiff.ch/assets/Rosy.jpg'},
         title: 'Rosy',
-        author: 'Praxishund',
-        cols: 3
+        description: 'Praxishund',
     },
     {
         key: 5,
         img: {src: 'https://vet-enge.julianiff.ch/assets/Sam.jpg'},
         title: 'Sam',
-        author: 'Praxishund',
-        cols: 3
+        description: 'Praxishund',
     },
 ];
+
+const gridListClasses = makeStyles((theme: Theme) => ({
+
+    imageTile: {
+        maxHeight: 600,
+        height: 600,
+        maxWidth: 400,
+        objectFit: "cover"
+    }
+}));
 
 /**
  * The example data is structured as follows:
@@ -66,32 +72,23 @@ export const ListImage: React.FC<ListImageProps> = ({
                                                         ...props
                                                     }) => {
 
+    const classes = gridListClasses();
     return (
         <ThemeKnob>
 
-        <Grid container>
-            <Grid item xs={12}>
-                <H2>Das Team</H2>
+            <Grid container>
+                <Grid item xs={12}>
+                    <H2>Das Team</H2>
+                </Grid>
+                {tileData.map((tile: any) => (
+                    <Grid item xs={6} md={4} key={tile.key.toString()}>
+                        <ImageAndOverlay>
+                            <img src={tile.img.src} alt={tile.title} className={classes.imageTile}/>
+                            <ImageDescription><H2>{tile.title}: {tile.description}</H2></ImageDescription>
+                        </ImageAndOverlay>
+                    </Grid>
+                ))}
             </Grid>
-            <Grid item xs={12}>
-                <GridList cellHeight={500} cols={6}>
-                    {tileData.map((tile: any) => (
-                        <GridListTile key={tile.key} cols={tile.cols || 1}>
-                            <img src={tile.img.src} alt={tile.title} style={{objectFit: "cover"}}/>
-                            <GridListTileBar
-                                title={tile.title}
-                                subtitle={tile.author}
-                                actionIcon={
-                                    <IconButton aria-label={`info about ${tile.title}`}>
-                                        <InfoIcon/>
-                                    </IconButton>
-                                }
-                            />
-                        </GridListTile>
-                    ))}
-                </GridList>
-            </Grid>
-        </Grid>
         </ThemeKnob>
     );
 };
