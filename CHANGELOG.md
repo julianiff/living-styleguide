@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.6](https://github.com/julianiff/living-styleguide/compare/v0.12.5...v0.12.6) (2020-09-14)
+
+
+### Bug Fixes
+
+* hoist material design ([2af1874](https://github.com/julianiff/living-styleguide/commit/2af1874592e2dc529cf79eec75aaab10434a07a4))
+
+
+
+
+
 ## [0.12.5](https://github.com/julianiff/living-styleguide/compare/v0.12.4...v0.12.5) (2020-09-14)
 
 
