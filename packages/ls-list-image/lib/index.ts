@@ -1,3 +1,3 @@
-import { ListImage, ListImageProps } from "./ListImage";
+import { ListImage } from "./ListImage";
 
 export default ListImage;
