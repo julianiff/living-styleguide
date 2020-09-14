@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/julianiff/living-styleguide/compare/v0.12.6...v0.13.0) (2020-09-14)
+
+
+### Features
+
+* **ls-list-image:** add typo ([caef71e](https://github.com/julianiff/living-styleguide/commit/caef71e6902a79d624052ba874067674513a8fd8))
+
+
+
+
+
 ## [0.12.6](https://github.com/julianiff/living-styleguide/compare/v0.12.5...v0.12.6) (2020-09-14)
 
 
