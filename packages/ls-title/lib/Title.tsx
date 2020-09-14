@@ -14,12 +14,14 @@ export interface TitleProps {
    * Optional FontSize
    */
   fontSize?: number;
+
+  title: string;
 }
 
 export const Title: React.FC<TitleProps> = ({
-  children,
+  title,
   fontSize = 2.4,
   ...props
 }) => {
-  return <FontSize size={fontSize}>{children}</FontSize>;
+  return <FontSize size={fontSize}>{title}</FontSize>;
 };
