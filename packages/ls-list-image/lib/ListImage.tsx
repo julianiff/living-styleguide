@@ -20,31 +20,31 @@ import { makeStyles } from "@material-ui/core/styles";
 const teamData = [
   {
     key: 1,
-    img: { src: "https://vet-enge.julianiff.ch/assets/Chadieja.jpg" },
+    img: { path: "https://vet-enge.julianiff.ch/assets/Chadieja.jpg" },
     title: "Chadieja Benredjem",
     description: "TPA",
   },
   {
     key: 2,
-    img: { src: "https://vet-enge.julianiff.ch/assets/Ueli.jpg" },
+    img: { path: "https://vet-enge.julianiff.ch/assets/Ueli.jpg" },
     title: "Dr. med. vet. Ulrich Coradi",
     description: "Arzt",
   },
   {
     key: 3,
-    img: { src: "https://vet-enge.julianiff.ch/assets/portraitcscv.jpg" },
+    img: { path: "https://vet-enge.julianiff.ch/assets/portraitcscv.jpg" },
     title: "Dr. med. vet. Corinne Schroeter",
     description: "Praxisinhaberin",
   },
   {
     key: 4,
-    img: { src: "https://vet-enge.julianiff.ch/assets/Rosy.jpg" },
+    img: { path: "https://vet-enge.julianiff.ch/assets/Rosy.jpg" },
     title: "Rosy",
     description: "Praxishund",
   },
   {
     key: 5,
-    img: { src: "https://vet-enge.julianiff.ch/assets/Sam.jpg" },
+    img: { path: "https://vet-enge.julianiff.ch/assets/Sam.jpg" },
     title: "Sam",
     description: "Praxishund",
   },
