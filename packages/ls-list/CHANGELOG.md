@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.1](https://github.com/julianiff/living-styleguide/compare/v0.12.0...v0.12.1) (2020-09-14)
+
+
+### Bug Fixes
+
+* new list-image arrangement ([c4bd765](https://github.com/julianiff/living-styleguide/commit/c4bd7653ca0793fa6a766e736fd2347b34eb3d48))
+
+
+
+
+
 # [0.12.0](https://github.com/julianiff/living-styleguide/compare/v0.11.3...v0.12.0) (2020-09-13)
 
 **Note:** Version bump only for package ls-list
