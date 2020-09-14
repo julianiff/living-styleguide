@@ -28,7 +28,7 @@ const teamData = [
     key: 2,
     img: { path: "https://vet-enge.julianiff.ch/assets/Ueli.jpg" },
     title: "Dr. med. vet. Ulrich Coradi",
-    description: "Arzt",
+    description: "Arzte",
   },
   {
     key: 3,
