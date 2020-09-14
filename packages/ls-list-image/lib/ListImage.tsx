@@ -91,7 +91,7 @@ export const ListImage: React.FC<ListImageProps> = ({
         <Grid item xs={6} md={4} key={tile.key.toString()}>
           <ImageAndOverlay>
             <img
-              src={tile.img.src}
+              src={tile.img.path}
               alt={tile.title}
               className={classes.imageTile}
             />
