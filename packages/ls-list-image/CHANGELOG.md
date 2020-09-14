@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.3](https://github.com/julianiff/living-styleguide/compare/v0.12.2...v0.12.3) (2020-09-14)
+
+
+### Bug Fixes
+
+* **ls-list-image:** change src to path ([c6fe627](https://github.com/julianiff/living-styleguide/commit/c6fe627f62a95dcf5ad568dd1274e7121f646b2c))
+
+
+
+
+
 ## [0.12.2](https://github.com/julianiff/living-styleguide/compare/v0.12.1...v0.12.2) (2020-09-14)
 
 
