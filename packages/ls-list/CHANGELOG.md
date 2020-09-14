@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.4](https://github.com/julianiff/living-styleguide/compare/v0.13.3...v0.13.4) (2020-09-14)
+
+
+### Bug Fixes
+
+* removed all material-ui dependencies ([8f7f3d1](https://github.com/julianiff/living-styleguide/commit/8f7f3d141fe62597bb69fe2d7e2d553d6ef34f9b))
+
+
+
+
+
 ## [0.13.3](https://github.com/julianiff/living-styleguide/compare/v0.13.2...v0.13.3) (2020-09-14)
 
 **Note:** Version bump only for package ls-list
