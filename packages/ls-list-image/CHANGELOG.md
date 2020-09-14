@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.4](https://github.com/julianiff/living-styleguide/compare/v0.12.3...v0.12.4) (2020-09-14)
+
+
+### Bug Fixes
+
+* change positino of styles into the package ([70c1a2a](https://github.com/julianiff/living-styleguide/commit/70c1a2a1c2062ac852fd371298388869b37df453))
+
+
+
+
+
 ## [0.12.3](https://github.com/julianiff/living-styleguide/compare/v0.12.2...v0.12.3) (2020-09-14)
 
 
