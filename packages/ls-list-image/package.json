@@ -1,6 +1,6 @@
 {
   "name": "ls-list-image",
-  "version": "0.13.0",
+  "version": "0.12.6",
   "description": "ListImage",
   "author": "julianiff <jule_iff@mac.com>",
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
@@ -22,7 +22,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "dev": "microbundle watch --jsx React.createElement lib/*.tsx",
-    "prepublish": "microbundle --jsx React.createElement lib/index.tsx"
+    "prepublish": "microbundle --jsx React.createElement lib/*.tsx"
   },
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
@@ -30,6 +30,8 @@
   "gitHead": "a44941409647e84e5247bf97315a68e9add40760",
   "dependencies": {
     "@types/styled-components": "^5.1.2",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1"
   }
 }
