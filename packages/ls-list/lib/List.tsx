@@ -27,6 +27,8 @@ export const List: React.FC<ListProps> = ({
             <UL>
                 <LI>Link1</LI>
                 <LI>Link2</LI>
+                <LI>Link2</LI>
+                <LI>Link3</LI>
                 <LI>Link3</LI>
                 <LI>Link4</LI>
             </UL>
