@@ -1,6 +1,6 @@
 {
   "name": "ls-list",
-  "version": "0.14.9-rc.0",
+  "version": "0.14.9",
   "description": "List",
   "author": "julianiff <jule_iff@mac.com>",
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
   },
-  "gitHead": "8f2bf0ffa853df24333b8ade471338493dbae4f8",
+  "gitHead": "2b8f0a0bd5fdb66b95d5e2610cb1329d326004bc",
   "dependencies": {
     "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
