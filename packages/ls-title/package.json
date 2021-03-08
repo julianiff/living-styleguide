@@ -1,6 +1,6 @@
 {
   "name": "ls-title",
-  "version": "0.14.2-alpha.0",
+  "version": "0.14.2",
   "description": "React.js component Title",
   "keywords": [
     "React.js",
@@ -34,5 +34,6 @@
   "dependencies": {
     "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
-  }
+  },
+  "gitHead": "0fb825cd46794bcf305a093599c9c48393e0e8da"
 }
