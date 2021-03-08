@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
   },
-  "gitHead": "0fb825cd46794bcf305a093599c9c48393e0e8da",
+  "gitHead": "c544d53b6d63dc1964d6495ab9a3204d777ab5f6",
   "dependencies": {
     "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
