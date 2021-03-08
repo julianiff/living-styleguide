@@ -1,6 +1,6 @@
 {
   "name": "ls-list-image",
-  "version": "0.14.7-alpha.0",
+  "version": "0.14.7",
   "description": "ListImage",
   "author": "julianiff <jule_iff@mac.com>",
   "homepage": "https://github.com/julianiff/living-styleguide#readme",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/julianiff/living-styleguide/issues"
   },
-  "gitHead": "c544d53b6d63dc1964d6495ab9a3204d777ab5f6",
+  "gitHead": "1ac0f08529efcbca843827ab5baf6829eebd10b3",
   "dependencies": {
     "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
